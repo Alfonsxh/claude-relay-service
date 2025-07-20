@@ -1,0 +1,37 @@
+# Go 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server
+claude-relay
+
+# 测试覆盖率文件
+*.out
+
+# Vendor目录（依赖项）
+vendor/
+
+# 运行时数据目录
+data/
+
+# 环境配置文件
+.env
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
